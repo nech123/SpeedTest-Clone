@@ -18,4 +18,4 @@ function TestUp() {
   )
 }
 
-export { TestUp }
+export default TestUp

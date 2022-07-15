@@ -23,7 +23,8 @@ export const LocationServer = styled.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-
+  align-items: flex-start;
+  gap: 10px;
   @media (max-width: 1400px) {
     width: 64%;
     height: 100%;
@@ -35,9 +36,9 @@ export const LocationServerInfo = styled.div`
   justify-content: start;
   display: flex;
   flex-direction: column;
-  padding-left: 55px;
-  gap: 10px;
-  margin-left: 190px;
+  padding-left: 45px;
+  gap: 16px;
+  margin-left: 180px;
 
   @media (max-width: 1400px) {
     width: 64%;
@@ -57,6 +58,7 @@ export const NameProver = styled.p`
 export const IpProver = styled.p`
   font-size: 18px;
   color: gray;
+  direction: rtl;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 `
@@ -129,7 +131,10 @@ export const SetStatusProver = styled.div`
 `
 export const NamePPE = styled.p`
   color: #fff;
-  font-size: 23px;
+  text-transform: none;
+  letter-spacing: 1px;
+  direction: rtl;
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   @media (max-width: 1400px) {
     font-size: 15px;

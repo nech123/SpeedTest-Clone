@@ -1,5 +1,5 @@
 import React from 'react'
-import { MenuDropFirst } from '../../Menu'
+import MenuDropFirst from '../../Menu'
 import { Container, LogoInstruction, IconLogo, NameLogo } from './styles.ts'
 
 function TitlePage() {
@@ -15,4 +15,4 @@ function TitlePage() {
   )
 }
 
-export { TitlePage }
+export default TitlePage

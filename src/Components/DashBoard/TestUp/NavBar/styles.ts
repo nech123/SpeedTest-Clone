@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { BiSelectMultiple } from 'react-icons/bi'
+import { CgSelectO } from 'react-icons/cg'
 import { IoSettingsOutline } from 'react-icons/io5'
 
 export const DivBar = styled.div`
@@ -36,7 +36,7 @@ export const Results = styled.div`
     cursor: pointer;
   }
 `
-export const IconResults = styled(BiSelectMultiple)`
+export const IconResults = styled(CgSelectO)`
   width: 20px;
   height: 20px;
   border-radius: 15px;
